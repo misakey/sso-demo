@@ -6,8 +6,8 @@ import { useMisakeyAuth } from "@misakey/sdk";
 
 /** Copy this snippet in the config part of your app */
 const authConfig = {
-  clientId: '9e9f68f2-1337-491a-9d04-3e44442aba1b',
-  redirectUri: 'http://localhost:3000/callback',
+  clientId: 'e3519bcb-a898-4fe9-952d-fe3b87b2ebde',
+  redirectUri: 'https://demo.sso.misakey.com/callback',
   buttonPlacement: 'top-right',
   userInfoRequirement: ['email', 'name', 'phone'],
 }
